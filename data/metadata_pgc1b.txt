@@ -1,0 +1,5 @@
+	conditions
+HCT116siCONT1	control
+HCT116siCONT2	control
+HCT116sipgc1b2	experiment
+HCT116sipgc1b6	experiment

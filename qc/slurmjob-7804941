@@ -1,0 +1,635 @@
+
+You are using the current version of XPRESSpipe...
+======================
+User commands summary:
+======================
+XPRESSpipe version: 0.4.1
+cmd: makeReference
+output: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/
+fasta: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/genome_fastas
+gtf: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/transcripts.gtf
+sjdbOverhang: 75
+genome_size: 14
+max_processors: 32
+path: /uufs/chpc.utah.edu/common/home/u0690617/XPRESSpipe/xpresspipe/
+log_loc: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/
+experiment: makeReference_2020_2_7_15h_17m_32s
+log:  >> /scratch/general/lustre/u0690617/references/human_reference_pe_v99/makeReference_2020_2_7_15h_17m_32s.log 2>&1
+log_file: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/makeReference_2020_2_7_15h_17m_32s.log
+=====================
+End commands summary
+=====================
+
+Creating reference files...
+Process complete.
+************************
+    
+
+You are using the current version of XPRESSpipe...
+======================
+User commands summary:
+======================
+XPRESSpipe version: 0.4.1
+cmd: peRNAseq
+input: /scratch/general/lustre/u0690617/7804941/input/
+output: /scratch/general/lustre/u0690617/7804941/output/
+reference: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/
+gtf: /scratch/general/lustre/u0690617/references/human_reference_pe_v99/transcripts.gtf
+experiment: frodyma
+small_output: False
+two_pass: False
+adapters: ['AGATCGGAAGAGCACACGTCTGAACTCCAGTCA', 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT']
+quality: 28
+min_length: 17
+max_length: 0
+remove_rrna: False
+umi_location: None
+umi_length: None
+no_multimappers: False
+deduplicate: False
+output_bed: False
+quantification_method: htseq
+feature_type: exon
+stranded: no
+method: None
+vcf: None
+batch: None
+sjdbOverhang: 75
+mismatchRatio: 0.1
+seedSearchStartLmax: 50
+genome_size: 14
+gene_name: GAPDH
+max_processors: 32
+path: /uufs/chpc.utah.edu/common/home/u0690617/XPRESSpipe/xpresspipe/
+log_loc: /scratch/general/lustre/u0690617/7804941/output/
+log:  >> /scratch/general/lustre/u0690617/7804941/output/frodyma.log 2>&1
+log_file: /scratch/general/lustre/u0690617/7804941/output/frodyma.log
+=====================
+End commands summary
+=====================
+
+
+XPRESSpipe initialized...
+    
+Adaptor and quality trimming...
+
+  _       ,/'
+ (_).  ,/'
+  __  ::
+ (__)'  `\.
+           `\.
+       
+HCT116siCONT1_S1_L001_R1_001.fastq has been processed.
+HCT116siCONT1_S1_L002_R1_001.fastq has been processed.
+HCT116siCONT1_S1_L003_R1_001.fastq has been processed.
+HCT116siCONT1_S1_L004_R1_001.fastq has been processed.
+HCT116siCONT2_S2_L001_R1_001.fastq has been processed.
+HCT116siCONT2_S2_L002_R1_001.fastq has been processed.
+HCT116siCONT2_S2_L003_R1_001.fastq has been processed.
+HCT116siCONT2_S2_L004_R1_001.fastq has been processed.
+HCT116siERRa7_S6_L001_R1_001.fastq has been processed.
+HCT116siERRa7_S6_L002_R1_001.fastq has been processed.
+HCT116siERRa7_S6_L003_R1_001.fastq has been processed.
+HCT116siERRa7_S6_L004_R1_001.fastq has been processed.
+HCT116siERRa8_S5_L001_R1_001.fastq has been processed.
+HCT116siERRa8_S5_L002_R1_001.fastq has been processed.
+HCT116siERRa8_S5_L003_R1_001.fastq has been processed.
+HCT116siERRa8_S5_L004_R1_001.fastq has been processed.
+HCT116sipgc1b2_S4_L001_R1_001.fastq has been processed.
+HCT116sipgc1b2_S4_L002_R1_001.fastq has been processed.
+HCT116sipgc1b2_S4_L003_R1_001.fastq has been processed.
+HCT116sipgc1b2_S4_L004_R1_001.fastq has been processed.
+HCT116sipgc1b6_S3_L001_R1_001.fastq has been processed.
+HCT116sipgc1b6_S3_L002_R1_001.fastq has been processed.
+HCT116sipgc1b6_S3_L003_R1_001.fastq has been processed.
+HCT116sipgc1b6_S3_L004_R1_001.fastq has been processed.
+Processing of batch 1 of 1 complete...
+Process complete.
+************************
+    
+
+Running some QC on trimmed reads...
+
+trimmed_HCT116siCONT1_S1_L001_R1_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L001_R2_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L002_R1_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L002_R2_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L003_R1_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L003_R2_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L004_R1_001.fastq has been processed.
+trimmed_HCT116siCONT1_S1_L004_R2_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L001_R1_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L001_R2_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L002_R1_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L002_R2_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L003_R1_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L003_R2_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L004_R1_001.fastq has been processed.
+trimmed_HCT116siCONT2_S2_L004_R2_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L001_R1_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L001_R2_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L002_R1_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L002_R2_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L003_R1_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L003_R2_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L004_R1_001.fastq has been processed.
+trimmed_HCT116siERRa7_S6_L004_R2_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L001_R1_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L001_R2_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L002_R1_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L002_R2_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L003_R1_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L003_R2_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L004_R1_001.fastq has been processed.
+trimmed_HCT116siERRa8_S5_L004_R2_001.fastq has been processed.
+Processing of batch 1 of 2 complete...
+trimmed_HCT116sipgc1b2_S4_L001_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L001_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L002_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L002_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L003_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L003_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L004_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b2_S4_L004_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L001_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L001_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L002_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L002_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L003_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L003_R2_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L004_R1_001.fastq has been processed.
+trimmed_HCT116sipgc1b6_S3_L004_R2_001.fastq has been processed.
+Processing of batch 2 of 2 complete...
+Aligning...
+
+                                                     __________
+|             _,---.                          _..--'/          \              |
+|          ,-'      )                    _,-,'     /            \             |
+|         (          )               _,-'  /      /              \            |
+|          `-.__, -'             _,-/     /     _/ ,------------. \           |
+|     ,--._,---.             _,-'  /     /_,--'' | |            | |           |
+|   _(_,-'      )        _,-'/    /_, - '|       | |   XPRESS   | |           |
+| ,'  (        )      ,'/   /_, -'|      ||_  -  | |            | |           |
+|(     `--._,-'    _,' /_,-'|     ||_  - |       | |  yourself  | |           |
+| `--.__,-'     _,'/,-'|  - ||_ - |      ||_  -  | |            | |           |
+|            _,'/,'|  - ___ |     ||_  - |       | `------------' |           |
+|        _ ,' |_' -|- _(   ) |_   |      ||_  -  |                |           |
+|       ( ): ((`) -| (. `-/ )   - ||_  - |       |                |           |
+|      ` | '(-.,') '( _\`/-') _ - |      | _   - |                |           |
+|        `   (_.) -(_._|,-_)      ||_  - |       |                |           |
+| .        `. || ` | (_\||_)  _ - |      ||_  -  |                |           |
+|             `.    ` . ||  |   - ||_  - |       |                |           |
+|                `.     ||-.|  :  |  _   ||_   - |     __________ |           |
+|                   `.  ||    ` -.|   |  |   _   |    | ________ |`'--.._     |
+|                      `.           ` - .|  | |  |    || ()._o  ||   __ |     |
+|`.          `            `.   `           ` -' .|____|`'---.|>_||  |. ||     |
+|  `.                        `.                         `' -- .._|__|__||     |
+|    `.                ,----.---------- .                            .-_.     |
+|   _  `.             |.`.,' `.           `.                         || |     |
+|        `.         _|`. / `.  `.            `.                       |_o     |
+|          `.        |  `.   `.  `.-----_-----.\     `                        |
+|            `.      `.|.`|  | `. `./\  c__)___/\             .               |
+|              `.       `. `.|    `.\____\___)___\                            |
+|                `.          `.  _ `.\`____________\                          |
+|                  `.          |    |_|   ____   |_|                          |
+|          _         `.        `.|\ |#|__[....]__|#|`.                        |
+|                      `.         `================'  `.                      |
+
+       
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT1_S1_L001_R1_001.fastq has been processed.
+Processing of batch 1 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT1_S1_L002_R1_001.fastq has been processed.
+Processing of batch 2 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT1_S1_L003_R1_001.fastq has been processed.
+Processing of batch 3 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT1_S1_L004_R1_001.fastq has been processed.
+Processing of batch 4 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT2_S2_L001_R1_001.fastq has been processed.
+Processing of batch 5 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT2_S2_L002_R1_001.fastq has been processed.
+Processing of batch 6 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT2_S2_L003_R1_001.fastq has been processed.
+Processing of batch 7 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siCONT2_S2_L004_R1_001.fastq has been processed.
+Processing of batch 8 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa7_S6_L001_R1_001.fastq has been processed.
+Processing of batch 9 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa7_S6_L002_R1_001.fastq has been processed.
+Processing of batch 10 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa7_S6_L003_R1_001.fastq has been processed.
+Processing of batch 11 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa7_S6_L004_R1_001.fastq has been processed.
+Processing of batch 12 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa8_S5_L001_R1_001.fastq has been processed.
+Processing of batch 13 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa8_S5_L002_R1_001.fastq has been processed.
+Processing of batch 14 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa8_S5_L003_R1_001.fastq has been processed.
+Processing of batch 15 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116siERRa8_S5_L004_R1_001.fastq has been processed.
+Processing of batch 16 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b2_S4_L001_R1_001.fastq has been processed.
+Processing of batch 17 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b2_S4_L002_R1_001.fastq has been processed.
+Processing of batch 18 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b2_S4_L003_R1_001.fastq has been processed.
+Processing of batch 19 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b2_S4_L004_R1_001.fastq has been processed.
+Processing of batch 20 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b6_S3_L001_R1_001.fastq has been processed.
+Processing of batch 21 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b6_S3_L002_R1_001.fastq has been processed.
+Processing of batch 22 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b6_S3_L003_R1_001.fastq has been processed.
+Processing of batch 23 of 24 complete...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...
+trimmed_HCT116sipgc1b6_S3_L004_R1_001.fastq has been processed.
+Processing of batch 24 of 24 complete...
+Process complete.
+************************
+    
+Generating count tables...
+
+    1...2...3...4...5...6...7...8...9...
+ _______________________________________________________________________________
+|{ _ ` ~~'"  /  },\    `,   ,`      _    ,~'                                ,~  |
+| '  \       {  |`,     `,'        / `~,/                               ,~`'    |
+|     \       ``'   \             (,\,'                       /`'~`,,~`'        |
+|      ,'          /            o\_,~'  _                    '~,   {}           |
+|     (       __  /             ,~'/~|\/_\  {}                ,'/               |
+|      `\  (   `'              |,'_  '<_                  ,,''/                 |
+|         `, '_,-              /"'` `'~-/,                )                     |
+|          `_`                {            \  `~,~  ,`, ,~`                     |
+|            ``~{^'~,_         \            \,_/  \/  '\)                       |
+|               /     `~~,,     ``~~~,        /       ; \/\                     |
+|               \          `,         \      /           `' <_>                 |
+|                `,       _|          ,     / _          _,~,|\                 |
+|                  {    ,/            \    / //         /      \                |
+|                  {  ,/               \  /  `          \_,-^,_/                |
+|                  { /                 `~'                    v     v           |
+|                  {,                                              /            |
+|                  `,_                                                          |
+|_______________________________________________________________________________|
+
+       
+HCT116siCONT1_S1_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT1_S1_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT1_S1_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT1_S1_L004_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT2_S2_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT2_S2_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT2_S2_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116siCONT2_S2_L004_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa7_S6_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa7_S6_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa7_S6_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa7_S6_L004_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa8_S5_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa8_S5_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa8_S5_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116siERRa8_S5_L004_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b2_S4_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b2_S4_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b2_S4_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b2_S4_L004_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b6_S3_L001_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b6_S3_L002_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b6_S3_L003_R1_001_Aligned.sort.bam has been processed.
+HCT116sipgc1b6_S3_L004_R1_001_Aligned.sort.bam has been processed.
+Processing of batch 1 of 1 complete...
+Process complete.
+************************
+    
+Normalizing counts based on parameters provided...
+
+                           ___,
+                    o___.-' /
+                    |      _\_
+                    |___.-'   `
+                    |
+                    |
+            _   _   j   _   _
+           [_]_[_]_[_]_[_]_[_]
+           [__j__j__j__j__j__]
+             [_j__j__j__j__]
+             [__j__j__j__j_]
+             [_j__j/V\_j__j]
+             [__j_// \__j_]
+             [_j__|   |_j__]
+             [__j_|___|__j_]
+             [_j__j__j__j__]
+             [__j__j__j__j_]
+  _   _   _  [_j__j__j__j__]  _   _   _   _
+_[_]_[_]_[_]_[__j__j__j__j_]_[_]_[_]_[_]_[_]_
+  _j__j__j__j[_j__j__j__j__]j__j__j__j__j_
+     j  j  j [  j  j  j  j ] j  j  j  j
+       
+Process complete.
+************************
+    
+Performing quality control on the processed sequencing data...
+
+      _               _               _
+     | |             | |             | |
+  ___| |__   ___  ___| | _____  _   _| |_
+ / __| '_ \ / _ \/ __| |/ / _ \| | | | __|
+| (__| | | |  __/ (__|   < (_) | |_| | |_
+ \___|_| |_|\___|\___|_|\_\___/ \__,_|\__|
+
+
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT1_S1_L001_R1_001.fastq
+trimmed_HCT116siCONT1_S1_L001_R1_001.fastq has been processed.
+Processing of batch 1 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT1_S1_L002_R1_001.fastq
+trimmed_HCT116siCONT1_S1_L002_R1_001.fastq has been processed.
+Processing of batch 2 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT1_S1_L003_R1_001.fastq
+trimmed_HCT116siCONT1_S1_L003_R1_001.fastq has been processed.
+Processing of batch 3 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT1_S1_L004_R1_001.fastq
+trimmed_HCT116siCONT1_S1_L004_R1_001.fastq has been processed.
+Processing of batch 4 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT2_S2_L001_R1_001.fastq
+trimmed_HCT116siCONT2_S2_L001_R1_001.fastq has been processed.
+Processing of batch 5 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT2_S2_L002_R1_001.fastq
+trimmed_HCT116siCONT2_S2_L002_R1_001.fastq has been processed.
+Processing of batch 6 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT2_S2_L003_R1_001.fastq
+trimmed_HCT116siCONT2_S2_L003_R1_001.fastq has been processed.
+Processing of batch 7 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siCONT2_S2_L004_R1_001.fastq
+trimmed_HCT116siCONT2_S2_L004_R1_001.fastq has been processed.
+Processing of batch 8 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa7_S6_L001_R1_001.fastq
+trimmed_HCT116siERRa7_S6_L001_R1_001.fastq has been processed.
+Processing of batch 9 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa7_S6_L002_R1_001.fastq
+trimmed_HCT116siERRa7_S6_L002_R1_001.fastq has been processed.
+Processing of batch 10 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa7_S6_L003_R1_001.fastq
+trimmed_HCT116siERRa7_S6_L003_R1_001.fastq has been processed.
+Processing of batch 11 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa7_S6_L004_R1_001.fastq
+trimmed_HCT116siERRa7_S6_L004_R1_001.fastq has been processed.
+Processing of batch 12 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa8_S5_L001_R1_001.fastq
+trimmed_HCT116siERRa8_S5_L001_R1_001.fastq has been processed.
+Processing of batch 13 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa8_S5_L002_R1_001.fastq
+trimmed_HCT116siERRa8_S5_L002_R1_001.fastq has been processed.
+Processing of batch 14 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa8_S5_L003_R1_001.fastq
+trimmed_HCT116siERRa8_S5_L003_R1_001.fastq has been processed.
+Processing of batch 15 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116siERRa8_S5_L004_R1_001.fastq
+trimmed_HCT116siERRa8_S5_L004_R1_001.fastq has been processed.
+Processing of batch 16 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b2_S4_L001_R1_001.fastq
+trimmed_HCT116sipgc1b2_S4_L001_R1_001.fastq has been processed.
+Processing of batch 17 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b2_S4_L002_R1_001.fastq
+trimmed_HCT116sipgc1b2_S4_L002_R1_001.fastq has been processed.
+Processing of batch 18 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b2_S4_L003_R1_001.fastq
+trimmed_HCT116sipgc1b2_S4_L003_R1_001.fastq has been processed.
+Processing of batch 19 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b2_S4_L004_R1_001.fastq
+trimmed_HCT116sipgc1b2_S4_L004_R1_001.fastq has been processed.
+Processing of batch 20 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b6_S3_L001_R1_001.fastq
+trimmed_HCT116sipgc1b6_S3_L001_R1_001.fastq has been processed.
+Processing of batch 21 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b6_S3_L002_R1_001.fastq
+trimmed_HCT116sipgc1b6_S3_L002_R1_001.fastq has been processed.
+Processing of batch 22 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b6_S3_L003_R1_001.fastq
+trimmed_HCT116sipgc1b6_S3_L003_R1_001.fastq has been processed.
+Processing of batch 23 of 24 complete...
+Evaluating the read distribution profile for /scratch/general/lustre/u0690617/7804941/output/trimmed_fastq/trimmed_HCT116sipgc1b6_S3_L004_R1_001.fastq
+trimmed_HCT116sipgc1b6_S3_L004_R1_001.fastq has been processed.
+Processing of batch 24 of 24 complete...
+
+Running complexity analysis of sequence libraries...
+HCT116siCONT1_S1_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 1 of 24 complete...
+HCT116siCONT1_S1_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 2 of 24 complete...
+HCT116siCONT1_S1_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 3 of 24 complete...
+HCT116siCONT1_S1_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 4 of 24 complete...
+HCT116siCONT2_S2_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 5 of 24 complete...
+HCT116siCONT2_S2_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 6 of 24 complete...
+HCT116siCONT2_S2_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 7 of 24 complete...
+HCT116siCONT2_S2_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 8 of 24 complete...
+HCT116siERRa7_S6_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 9 of 24 complete...
+HCT116siERRa7_S6_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 10 of 24 complete...
+HCT116siERRa7_S6_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 11 of 24 complete...
+HCT116siERRa7_S6_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 12 of 24 complete...
+HCT116siERRa8_S5_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 13 of 24 complete...
+HCT116siERRa8_S5_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 14 of 24 complete...
+HCT116siERRa8_S5_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 15 of 24 complete...
+HCT116siERRa8_S5_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 16 of 24 complete...
+HCT116sipgc1b2_S4_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 17 of 24 complete...
+HCT116sipgc1b2_S4_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 18 of 24 complete...
+HCT116sipgc1b2_S4_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 19 of 24 complete...
+HCT116sipgc1b2_S4_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 20 of 24 complete...
+HCT116sipgc1b6_S3_L001_R1_001_dedupMarked.bam has been processed.
+Processing of batch 21 of 24 complete...
+HCT116sipgc1b6_S3_L002_R1_001_dedupMarked.bam has been processed.
+Processing of batch 22 of 24 complete...
+HCT116sipgc1b6_S3_L003_R1_001_dedupMarked.bam has been processed.
+Processing of batch 23 of 24 complete...
+HCT116sipgc1b6_S3_L004_R1_001_dedupMarked.bam has been processed.
+Processing of batch 24 of 24 complete...
+Generating index for GAPDH...
+Dataframe split into 1 chunks for parallelization
+Parsing record for longest transcripts
+
+Generating gene coverage profiles...
+Resetting parallelization specs based on max file size to be processed:
+Max number of workers: 19
+Number of threads per worker (where available): 1
+Evaluating the gene coverage of "HCT116sipgc1b2_S4_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa8_S5_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT1_S1_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa8_S5_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT2_S2_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT2_S2_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b2_S4_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa7_S6_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT1_S1_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT2_S2_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa7_S6_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT1_S1_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT2_S2_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siCONT1_S1_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa8_S5_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b2_S4_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa8_S5_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa7_S6_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116siERRa7_S6_L001_R1_001_Aligned.toTranscriptome.out.bam"
+HCT116siCONT1_S1_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+Processing of batch 1 of 2 complete...
+Evaluating the gene coverage of "HCT116sipgc1b6_S3_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b6_S3_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b2_S4_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b6_S3_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the gene coverage of "HCT116sipgc1b6_S3_L004_R1_001_Aligned.toTranscriptome.out.bam"
+HCT116sipgc1b2_S4_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+Processing of batch 2 of 2 complete...
+Plotting...
+Generating index for genes...
+
+Generating metagene profiles...
+
+Getting positions of reads...
+Resetting parallelization specs based on max file size to be processed:
+Max number of workers: 20
+Number of threads per worker (where available): 1
+sh: line 1: 41525 Killed                  Rscript /uufs/chpc.utah.edu/common/home/u0690617/XPRESSpipe/xpresspipe/Rmetagene.r /scratch/general/lustre/u0690617/7804941/output/alignments_transcriptome/ "HCT116siCONT1_S1_L003_R1_001_Aligned.toTranscriptome.out.bam" /scratch/general/lustre/u0690617/7804941/output/metagene/metrics/ >> /scratch/general/lustre/u0690617/7804941/output/frodyma.log 2>&1
+sh: line 1: 41496 Killed                  Rscript /uufs/chpc.utah.edu/common/home/u0690617/XPRESSpipe/xpresspipe/Rmetagene.r /scratch/general/lustre/u0690617/7804941/output/alignments_transcriptome/ "HCT116siCONT1_S1_L001_R1_001_Aligned.toTranscriptome.out.bam" /scratch/general/lustre/u0690617/7804941/output/metagene/metrics/ >> /scratch/general/lustre/u0690617/7804941/output/frodyma.log 2>&1
+sh: line 1: 41566 Killed                  Rscript /uufs/chpc.utah.edu/common/home/u0690617/XPRESSpipe/xpresspipe/Rmetagene.r /scratch/general/lustre/u0690617/7804941/output/alignments_transcriptome/ "HCT116siERRa7_S6_L004_R1_001_Aligned.toTranscriptome.out.bam" /scratch/general/lustre/u0690617/7804941/output/metagene/metrics/ >> /scratch/general/lustre/u0690617/7804941/output/frodyma.log 2>&1
+Evaluating the metagene profile for "HCT116siCONT2_S2_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b2_S4_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT1_S1_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT1_S1_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa8_S5_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa8_S5_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa7_S6_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT2_S2_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa8_S5_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT2_S2_L001_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b2_S4_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b2_S4_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa8_S5_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa7_S6_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa7_S6_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b2_S4_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT1_S1_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT1_S1_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siCONT2_S2_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116siERRa7_S6_L004_R1_001_Aligned.toTranscriptome.out.bam"
+HCT116siCONT1_S1_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT1_S1_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siCONT2_S2_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa7_S6_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116siERRa8_S5_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b2_S4_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+Processing of batch 1 of 2 complete...
+Evaluating the metagene profile for "HCT116sipgc1b6_S3_L002_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b6_S3_L004_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b6_S3_L003_R1_001_Aligned.toTranscriptome.out.bam"
+Evaluating the metagene profile for "HCT116sipgc1b6_S3_L001_R1_001_Aligned.toTranscriptome.out.bam"
+HCT116sipgc1b6_S3_L001_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L002_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L003_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+HCT116sipgc1b6_S3_L004_R1_001_Aligned.toTranscriptome.out.bam has been processed.
+Processing of batch 2 of 2 complete...
+
+Converting positions to metapositions...
+Resetting parallelization specs based on max file size to be processed:
+Max number of workers: 20
+Number of threads per worker (where available): 1
+slurmstepd: error: _is_a_lwp: open() /proc/46672/status failed: No such file or directory
+slurmstepd: error: Detected 7 oom-kill event(s) in step 7804941.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
