@@ -1,0 +1,24 @@
+Conda dependencies:
+===================
+fastp                     0.20.0               hd9629dc_0    bioconda
+star                      2.7.3a                        0    bioconda
+bioconductor-rsamtools    1.34.0           r351h0a44026_0    bioconda
+samtools                  1.10                 h457b48f_2    bioconda
+bedtools                  2.29.2               h37cfd92_0    bioconda
+fastqc                    0.11.9                        0    bioconda
+htseq                     0.11.2           py37h1702cab_1    bioconda
+matplotlib                2.2.3            py37h54f8f79_0  
+pandas                    0.25.3           py37h0a44026_0  
+numpy                     1.17.4           py37hfd23ef0_0  
+numpy-base                1.17.4           py37ha711998_0  
+numpydoc                  0.9.2                      py_0  
+scipy                     1.3.1            py37h1a1e112_0  
+scikit-learn              0.22.1           py37hebd9d1a_0  
+multiqc                   1.8                        py_1    bioconda
+xpressplot                0.2.2                      py_0    bioconda
+seaborn                   0.10.0                     py_0  
+R dependencies:
+===================
+DESeq2                             DESeq2      1.22.1        <NA>
+dupRadar                         dupRadar      1.14.0        <NA>
+riboWaltz                       riboWaltz       1.1.0        <NA>
